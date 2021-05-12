@@ -35,6 +35,7 @@ function setup() {
 	mango11=new mango(1120,50,25);
 	mango12=new mango(900,160,25);
 
+
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
 	launcherObject=new launcher(stoneObj.body,{x:235,y:420})
